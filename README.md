@@ -11,7 +11,9 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 the data into left and right side and then calcultate the limits of each side. 
 ### Test images are presented below
 ![alt text](https://github.com/ranceaaa/PROJECT-1---FINDING-LANE-LINES/tree/master/test_images_output/_solidWhiteCurve.jpg "Image 1")
+![alt text][logo]
 
+[logo]: https://github.com/ranceaaa/PROJECT-1---FINDING-LANE-LINES/tree/master/test_images_output/_solidWhiteCurve.jpg  "Logo Title Text 2"
 ### 2. Identify potential shortcomings with your current pipeline
 One potential shortcoming would be what would happen when shadow are covering the line
 Another shortcoming could be when camera angle changes ( hood appears in the picture)
