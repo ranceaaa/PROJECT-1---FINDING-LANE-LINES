@@ -12,11 +12,11 @@ the data into left and right side and then calcultate the limits of each side.
 ### Test images are presented below
 
 ![alt text](https://github.com/ranceaaa/PROJECT-1---FINDING-LANE-LINES/tree/master/test_images_output/_solidWhiteCurve.jpg?raw=true)
-[Image 2]: https://github.com/ranceaaa/PROJECT-1---FINDING-LANE-LINES/tree/master/test_images_output/_solidWhiteRight.jpg  "Image 2"
-[Image 3]: https://github.com/ranceaaa/PROJECT-1---FINDING-LANE-LINES/tree/master/test_images_output/_solidYellowCurve.jpg "Image 3"
-[Image 4]: https://github.com/ranceaaa/PROJECT-1---FINDING-LANE-LINES/tree/master/test_images_output/_solidYellowCurve2.jpg  "Image 4"
-[Image 5]: https://github.com/ranceaaa/PROJECT-1---FINDING-LANE-LINES/tree/master/test_images_output/_solidYellowLeft.jpg  "Image 5"
-[Image 6]: https://github.com/ranceaaa/PROJECT-1---FINDING-LANE-LINES/tree/master/test_images_output/_whiteCarLaneSwitch.jpg  "Image 6"
+![alt text](https://github.com/ranceaaa/PROJECT-1---FINDING-LANE-LINES/tree/master/test_images_output/_solidWhiteRight.jpg?raw=true)
+![alt text](https://github.com/ranceaaa/PROJECT-1---FINDING-LANE-LINES/tree/master/test_images_output/_solidYellowCurve.jpg?raw=true)
+![alt text](https://github.com/ranceaaa/PROJECT-1---FINDING-LANE-LINES/tree/master/test_images_output/_solidYellowCurve2.jpg?raw=true)
+![alt text](https://github.com/ranceaaa/PROJECT-1---FINDING-LANE-LINES/tree/master/test_images_output/_solidYellowLeft.jpg?raw=true)
+![alt text](https://github.com/ranceaaa/PROJECT-1---FINDING-LANE-LINES/tree/master/test_images_output/_whiteCarLaneSwitch.jpg?raw=true)
 
 ### 2. Identify potential shortcomings with your current pipeline
 One potential shortcoming would be what would happen when shadow are covering the line
@@ -27,3 +27,5 @@ A possible improvement while working with videos would be calculating an average
 Another potential improvement could be to plot the last line, if the current one wasn't detected
 
 ### 4. Pipeline for challange video
+Working with the challange video was pretty hard using the previous pipeline, so some changes were made. The image is no more converted to grayscale, but to hlsscale. Some color filters were applied. 
+The video can be found in test_videos_output/challenge.mp4
