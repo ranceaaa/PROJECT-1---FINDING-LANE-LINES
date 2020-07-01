@@ -10,9 +10,7 @@ Edges are calculated using canny function, region of interest is applied and hou
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by splitting 
 the data into left and right side and then calcultate the limits of each side. 
 ### Test images are presented below
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+![alt text](https://github.com/ranceaaa/PROJECT-1---FINDING-LANE-LINES/tree/master/test_images_output/_solidWhiteCurve.jpg "Image 1")
 
 ### 2. Identify potential shortcomings with your current pipeline
 One potential shortcoming would be what would happen when shadow are covering the line
